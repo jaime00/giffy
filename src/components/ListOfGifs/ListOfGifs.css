@@ -1,0 +1,23 @@
+:root {
+	--results-columns: 5;
+}
+
+.list-of-gifs {
+	margin-top: 50px;
+	column-count: var(--results-columns);
+	column-gap: 0.5em;
+}
+
+
+
+@media (min-width: 600px) {
+	:root {
+		--results-columns: 3;
+	}
+}
+
+@media (min-width: 800px) {
+	:root {
+		--results-columns: 4;
+	}
+}
